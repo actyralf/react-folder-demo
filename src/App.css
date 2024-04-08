@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.basic.tree {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+.basic .tree-node,
+.basic .tree-node-group {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.basic .tree-branch-wrapper,
+.basic .tree-node__leaf {
+  outline: none;
+}
+
+.basic .tree-node--focused {
+  outline-color: rgb(77, 144, 254);
+  outline-style: auto;
+  outline-width: 2px;
+  display: block;
+}
+
+.basic .tree-node__branch {
+  display: block;
+}
+
+.basic .tree-node {
+  cursor: pointer;
+}
